@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags for character set, compatibility, and viewport settings -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Link to an external stylesheet named "style.css" -->
     <link rel="stylesheet" href="style.css" />
+    
+    <!-- Title of the HTML document -->
     <title>Tracker of production v.1</title>
   </head>
   <body>
+    <!-- Table for displaying quantity information -->
     <table>
       <tr>
         <th>Quantity carried</th>
@@ -15,8 +21,13 @@
         <th>Remaining quantity</th>
       </tr>
     </table>
+    
+    <!-- Container div for input and buttons -->
     <div id="container">
+      <!-- Input field for entering quantity -->
       <input type="number" id="itemText" placeholder="Quantity" />
+      
+      <!-- Div for buttons related to tracking -->
       <div id="order">
         <button id="add">Calculate</button>
         <button id="delete">Delete</button>
@@ -24,6 +35,7 @@
       </div>
     </div>
 
+    <!-- External JavaScript file for dynamic behavior -->
     <script src="main.js"></script>
   </body>
 </html>
