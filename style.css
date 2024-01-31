@@ -1,3 +1,4 @@
+/* Styling the body */
 body {
   font-family: "Arial", sans-serif;
   background-color: #e9eef7;
@@ -8,6 +9,7 @@ body {
   padding: 50px;
 }
 
+/* Styling the table for quantity information */
 table {
   width: 100%;
   max-width: 800px;
@@ -26,6 +28,7 @@ td {
   border-bottom: 2px solid #f0f2f7;
 }
 
+/* Styling table header */
 th {
   background-color: #4a69af;
   color: white;
@@ -33,11 +36,13 @@ th {
   letter-spacing: 0.8px;
 }
 
+/* Styling table cells */
 td {
   background-color: #fafbfe;
   color: #6b7c93;
 }
 
+/* Styling the container div for input and buttons */
 #container {
   width: 100%;
   max-width: 800px;
@@ -47,6 +52,7 @@ td {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Styling the quantity input field */
 #itemText {
   width: 100%;
   padding: 12px;
@@ -58,12 +64,14 @@ td {
   outline: none;
 }
 
+/* Styling the order div containing buttons */
 #order {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Styling buttons */
 button {
   padding: 12px 25px;
   border: none;
@@ -78,21 +86,25 @@ button {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling the "Calculate" button */
 #add {
   background-color: #60a3bc;
   color: white;
 }
 
+/* Styling the "Delete" button */
 #delete {
   background-color: #e55039;
   color: white;
 }
 
+/* Styling the "Start again" button */
 #restart {
   background-color: #f6b93b;
   color: white;
 }
 
+/* Hover and active effects on buttons */
 button:hover {
   border: none;
   transform: translateY(-3px);
@@ -104,6 +116,7 @@ button:active {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
+/* Alternating background colors for table rows */
 table tr:nth-child(odd) td {
   background-color: #fafbfe;
 }
